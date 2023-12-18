@@ -1,0 +1,124 @@
+body {
+    background-color: #242424;
+    font-family: 'Open Sans', sans-serif;
+}
+
+nav{
+    margin-bottom: 25px;
+}
+
+.logoSmall{
+    margin: 0px;
+    width: 100px;
+    position: absolute;
+}
+
+.title {
+    font-weight: 100;
+    font-size: 20px;
+    position: absolute;
+    margin: 30px 0 0px 35px;
+    color: rgb(224, 0, 0);
+}
+
+.subtitle {
+    font-weight: 100;
+    font-size: 18px;
+    margin: 30px 0 0px 45px;
+    color: white;
+}
+
+.links, .links > a {
+    font-size: 13px;
+    margin: 20px 5px;
+    text-decoration: none;
+    text-align: right;
+    color: white;
+}
+
+.links > a:hover {
+    text-decoration: underline;
+}
+
+.mainSearch {
+    margin-top: 200px;
+    text-align: center;
+}
+
+hr {
+    margin-top: 100px;
+}
+
+.search {
+    border: 1px solid #dfdfdf;
+    width: 500px;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: #242424;
+    background-image: url(img/iconSearch.png);
+    background-repeat: no-repeat;
+    background-size: 15px;
+    background-position: 12px;
+    text-indent: 20px;
+    color: white;
+}
+
+.search:hover{
+    background-color: #424242;
+    border: 0px solid #424242;
+    outline: none;
+
+}
+
+.formAdv {
+    margin: 20px;
+}
+
+.search:focus {
+    background-color: #424242;
+    border: #424242;
+    outline: none;
+}
+
+.labelAdv{
+    font-size: 14px;
+    color: white;
+    margin: 25px;
+}
+
+.advSearch{
+    left: 250px;
+    position: fixed;
+    width: 500px;
+    height: 25px;
+    
+}
+
+.btn {
+    height: 30%;
+    width: 125px;
+    font-size: 13px;
+    color: white;
+    background-color: #383838;
+    margin: 25px 5px;
+    padding: 7px 10px;
+    border: 1px solid #424242;
+    border-radius: 2.5px;
+}
+
+.btn:hover{
+    border: 1px solid #8f8f8f;
+}
+
+.btnAdv {
+    width: 150px;
+    font-size: 13px;
+    background-color: rgb(54, 148, 255);
+    color: white;
+    margin: 25px 5px;
+    padding: 7px 10px;
+    border: 1px solid #424242;
+    border-radius: 2.5px;
+    position: fixed;
+    left: 600px;
+}
